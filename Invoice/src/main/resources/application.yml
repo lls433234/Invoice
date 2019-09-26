@@ -1,0 +1,11 @@
+server:
+  port: 9033
+
+spring:
+  freemarker:
+    checkTemplateLocation: false
+  datasource:
+    url: jdbc:mysql://39.100.6.47:3306/extension?useUnicode=true&characterEncoding=utf8&autoReconnect=true&rewriteBatchedStatements=TRUE
+    username: jiuyao
+    password: JiuYao123*
+    driver-class-name: com.mysql.cj.jdbc.Driver
